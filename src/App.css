@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Noto Sans", sans-serif;
+  color: #354052;
+  top: 0 !important;
+}
+
+#root,
+.ant-layout {
+  height: 100%;
+}
+.ant-layout {
+  background: #eff3f6;
+}
+.ant-drawer-body {
+  padding: 0px;
+}
+.ant-drawer-close {
+  display: none;
+}
