@@ -1,7 +1,19 @@
+@font-face {
+  font-family: "Monument Regular";
+  src: url("./assets/fonts/MonumentExtended-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("./assets/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+  font-weight: 800;
+}
+
 body {
   margin: 0;
   height: 100%;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #354052;
   top: 0 !important;
 }
