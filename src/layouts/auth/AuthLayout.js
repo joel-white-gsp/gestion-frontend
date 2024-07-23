@@ -17,4 +17,9 @@ export default function AuthLayout({ children }) {
 }
 
 const Wrapper = styled.div`
+    padding: 30px 65px 0px 65px;
+    @media (max-width:920px) {
+      padding: 20px 20px 0px 20px;
+    }
+
 `;
